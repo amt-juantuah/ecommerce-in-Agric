@@ -1,0 +1,470 @@
+[
+    {
+        "id": 1,
+        "image": "./assets/products/a-nuts-raw/shea nuts/janokpato.jpg",
+        "name": "Janokpato Shea",
+        "price": 300,
+        "per": "bag",
+        "oldprice": 800,
+        "about": "From Ghana"
+    },
+    {
+        "id": 2,
+        "image": "./assets/products/a-nuts-raw/shea nuts/achunbuyoi.jpg",
+        "name": "Achunbuyoi Shea",
+        "price": 310,
+        "per": "bag",
+        "oldprice": 1000,
+        "about": "From Ghana"
+    },
+    {
+        "id": 3,
+        "image": "./assets/products/a-nuts-raw/shea nuts/larabanga.jpg",
+        "name": "Larabanga Shea",
+        "price": 290,
+        "per": "bag",
+        "oldprice": 700,
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 4,
+        "image": "./assets/products/a-nuts-raw/shea nuts/sonate.jpg",
+        "name": "Sonate Shea",
+        "price": 390,
+        "per": "bag",
+        "oldprice": 900,
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 5,
+        "image": "./assets/products/a-nuts-raw/shea nuts/tailorpe.jpg",
+        "name": "Tailorpe Shea",
+        "price": 390,
+        "per": "bag",
+        "oldprice": 900,
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 6,
+        "image": "./assets/products/a-nuts-raw/shea nuts/yelepaala.jpg",
+        "name": "Yelepaala Shea",
+        "price": 370,
+        "per": "bag",
+        "oldprice": 880,
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 7,
+        "image": "./assets/products/b-skin/shea butter for skin/bodybutter.jpg",
+        "name": "Body Butter",
+        "price": 12,
+        "per": "bottle",
+        "oldprice": 20,
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 8,
+        "image": "./assets/products/b-skin/shea butter for skin/coldpress_shea_argan_oil.jpg",
+        "name": "Coldpress Shea with Argan Oil",
+        "price": 27,
+        "per": "bottle",
+        "oldprice": 50,
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 9,
+        "image": "./assets/products/b-skin/shea butter for skin/coldpress_shea_coconut.jpg",
+        "name": "Coldpress Shea with Coconut Oil",
+        "price": 25,
+        "per": "bottle",
+        "oldprice": 47,
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 10,
+        "image": "./assets/products/b-skin/shea butter for skin/dr_teafs.jpg",
+        "name": "Dr Teafs",
+        "price": 37,
+        "per": "bottle",
+        "oldprice": 82,
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 11,
+        "image": "./assets/products/b-skin/shea butter for skin/golden_shea.jpg",
+        "name": "Golden Shea",
+        "price": 33,
+        "per": "bottle",
+        "oldprice": 42,
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 12,
+        "image": "./assets/products/b-skin/shea butter for skin/golden_shea.jpg",
+        "name": "Golden Shea",
+        "price": 33,
+        "per": "bottle",
+        "oldprice": 42,
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 13,
+        "image": "./assets/products/b-skin/shea butter for skin/habiba.jpg",
+        "name": "Habiba",
+        "price": 15,
+        "per": "bottle",
+        "oldprice": 32,
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 14,
+        "image": "./assets/products/b-skin/shea butter for skin/hawa.jpg",
+        "name": "Hawa",
+        "price": 16,
+        "per": "bottle",
+        "oldprice": 35,
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 15,
+        "image": "./assets/products/b-skin/shea butter for skin/ic_shea.jpg",
+        "name": "IC Shea",
+        "price": 11,
+        "per": "bottle",
+        "oldprice": 20,
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 16,
+        "image": "./assets/products/b-skin/shea butter for skin/jergens.jpg",
+        "name": "IC Shea",
+        "price": 42,
+        "per": "bottle",
+        "oldprice": 110,
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 17,
+        "image": "./assets/products/b-skin/shea butter for skin/mon_artisan_soap.jpg",
+        "name": "Mon Artisan Soap",
+        "price": 12,
+        "per": "bottle",
+        "oldprice": 40,
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 18,
+        "image": "./assets/products/b-skin/shea butter for skin/S_and_L.jpg",
+        "name": "S and L",
+        "price": 12,
+        "per": "bottle",
+        "oldprice": 40,
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 19,
+        "image": "./assets/products/b-skin/shea butter for skin/vatika.jpg",
+        "name": "Vatika",
+        "price": 19,
+        "per": "bottle",
+        "oldprice": 35,
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 20,
+        "image": "./assets/products/c-cook/shea butter/cake_raw.jpg",
+        "name": "Cake Raw",
+        "price": 22,
+        "per": "2kg",
+        "oldprice": 32,
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 21,
+        "image": "./assets/products/c-cook/shea butter/heavy_raw.jpg",
+        "name": "Heavy Raw",
+        "price": 21,
+        "per": "2kg",
+        "oldprice": 32,
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 22,
+        "image": "./assets/products/c-cook/shea butter/heavy_raw.jpg",
+        "name": "Heavy Raw",
+        "price": 21,
+        "per": "2kg",
+        "oldprice": 32,
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 23,
+        "image": "./assets/products/c-cook/shea butter/pro.jpg",
+        "name": "Raw and Pro",
+        "price": 47,
+        "per": "2kg",
+        "oldprice": 102,
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 24,
+        "image": "./assets/products/c-cook/shea butter/traditional_raw.jpg",
+        "name": "Traditional Raw",
+        "price": 17,
+        "per": "2kg",
+        "oldprice": 22,
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 25,
+        "image": "./assets/products/c-cook/shea butter/unilove_raw.jpg",
+        "name": "Unilove Raw",
+        "price": 15,
+        "per": "2kg",
+        "oldprice": 20,
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 26,
+        "image": "./assets/products/c-cook/shea butter/village_raw.jpg",
+        "name": "Village Raw",
+        "price": 13,
+        "oldprice": 20,
+        "per": "2kg",
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 27,
+        "image": "./assets/products/c-cook/shea butter/village_raw.jpg",
+        "name": "Village Raw",
+        "price": 13,
+        "oldprice": 20,
+        "per": "2kg",
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 28,
+        "image": "./assets/products/c-cook/shea butter/white_raw.jpg",
+        "name": "White Raw",
+        "price": 14,
+        "oldprice": 20,
+        "per": "2kg",
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 29,
+        "image": "./assets/products/c-cook/shea butter/yellow_raw.jpg",
+        "name": "Yellow Raw",
+        "price": 11,
+        "oldprice": 15,
+        "per": "2kg",
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 30,
+        "image": "./assets/products/c-cook/shea butter/zimzim_raw.jpg",
+        "name": "ZimZim Raw",
+        "price": 12,
+        "oldprice": 20,
+        "per": "2kg",
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 31,
+        "image": "./assets/products/d-wash/shea soap/african_black_soap.jpg",
+        "name": "African Black Soap",
+        "price": 32,
+        "oldprice": 40,
+        "per": "unit",
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 32,
+        "image": "./assets/products/d-wash/shea soap/african_black_soap.jpg",
+        "name": "Black Soap",
+        "price": 22,
+        "oldprice": 30,
+        "per": "unit",
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 33,
+        "image": "./assets/products/d-wash/shea soap/cake_soap.jpg",
+        "name": "Cake Soap",
+        "price": 32,
+        "oldprice": 40,
+        "per": "unit",
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 34,
+        "image": "./assets/products/d-wash/shea soap/damongo_black_soap.jpg",
+        "name": "Damongo Black Soap",
+        "price": 22,
+        "oldprice": 30,
+        "per": "unit",
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 35,
+        "image": "./assets/products/d-wash/shea soap/gulongu_soap.jpg",
+        "name": "Gulongu Soap",
+        "price": 2,
+        "oldprice": 3,
+        "per": "unit",
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 36,
+        "image": "./assets/products/d-wash/shea soap/hard_soap.jpg",
+        "name": "Hard Soap",
+        "price": 4,
+        "oldprice": 5,
+        "per": "unit",
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 37,
+        "image": "./assets/products/d-wash/shea soap/long_last_soap.jpg",
+        "name": "Long Last Soap",
+        "price": 9,
+        "oldprice": 12,
+        "per": "unit",
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 38,
+        "image": "./assets/products/d-wash/shea soap/mature_shea_soap.jpg",
+        "name": "Mature Soap",
+        "price": 12,
+        "oldprice": 22,
+        "per": "unit",
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 38,
+        "image": "./assets/products/d-wash/shea soap/rower_black_soap.jpg",
+        "name": "Rower Black Soap",
+        "price": 13,
+        "oldprice": 26,
+        "per": "unit",
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 39,
+        "image": "./assets/products/d-wash/shea soap/wife's_soap.jpg",
+        "name": "Wife's Soap",
+        "price": 5,
+        "oldprice": 7,
+        "per": "unit",
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 40,
+        "image": "./assets/products/d-wash/shea soap/yellow_soft_soap.jpg",
+        "name": "Yellow Soft Soap",
+        "price": 7,
+        "oldprice": 8,
+        "per": "unit",
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 41,
+        "image": "./assets/products/e-hair/deep_waves_pomade_men.jpg",
+        "name": "Deep Waves Pomade for Men",
+        "price": 77,
+        "oldprice": 205,
+        "per": "bottle",
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 42,
+        "image": "./assets/products/e-hair/hair_food_repair.jpg",
+        "name": "Hair Food",
+        "price": 8,
+        "oldprice": 19,
+        "per": "bottle",
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 43,
+        "image": "./assets/products/e-hair/laani.jpg",
+        "name": "Laani",
+        "price": 5,
+        "oldprice": 10,
+        "per": "bottle",
+        "about": "From Ghana"
+    },
+
+
+    {
+        "id": 44,
+        "image": "./assets/products/e-hair/mgl_naturals.jpg",
+        "name": "MGL Naturals",
+        "price": 12,
+        "oldprice": 40,
+        "per": "bottle",
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 45,
+        "image": "./assets/products/e-hair/miracle.jpg",
+        "name": "Miracle",
+        "price": 42,
+        "oldprice": 80,
+        "per": "bottle",
+        "about": "From Ghana"
+    },
+
+    {
+        "id": 46,
+        "image": "./assets/products/e-hair/waves_pomade_men.jpg",
+        "name": "Waves Pomade for Men",
+        "price": 42,
+        "oldprice": 88,
+        "per": "bottle",
+        "about": "From Ghana"
+    }
+]

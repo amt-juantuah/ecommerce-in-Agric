@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | SamShea</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <script>
+        if (localStorage.getItem("iox")) {
+            window.location.href = "index.html";
+        }
+    </script>
+    <div id="top-container" class="flex-r">
+        <div id="nav-bar">
+            <a href="./index.html"><h1 class="logo-name name">SamShea</h1></a>
+
+            <div id="dash-menu">
+                <ul class="login-c">
+                    <a href="./index.html"><li><span class="m-word">Home</span><span class="m-icon material-icons">house</span></li></a>
+                </ul>
+            </div>
+            
+            <form id="login-box" class="flex-c all-center">
+                <p>Login</p>
+                <input required id="loginEmail" name="loginEmail" type="email" placeholder="Your Email Address (Required)">
+                <input required id="loginPassword" name="loginPassword" type="password" placeholder="Your Password (Required)">
+                <button type="submit">Login</button>
+                <small id="loginError">All fields must be field correctly</small>
+                <span>Don't have an account? <a class="route-simple" href="signup.html">Click here to create one</a></span>
+            </form>
+        </div>
+        <div id="banner" class="login-banner flex-r">
+            <div class="card-on login-c flex-c just-ard">
+                <h1 class="flash-style">Paradise of Shea</h1>
+                <hr class="name-line cadet">
+                <div class="flex-c wrt">
+                    <p>You will be amazed with the essense of Pure Shea from Ghana</p>
+                    <p class="island">Natural Savannah Pride!!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="./serve/main.js"></script>
+</body>
+</html>

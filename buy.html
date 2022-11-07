@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Your Order | SamShea</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body class="buy-body">
+    <div class="buy-container">
+        <form id="buyForm" class="just-btw flex-c">
+            <div id="buy-input" class="flex-c just-btw">
+                <div class="buy-image-box flex-r">
+                    <div id="buy-product-pic" class="buy-product-pic"></div>
+                    <div class="flex-c">
+                        <p><small>Price: GHC </small><small id="price"></small><small id="per"></small></p>
+                        <p><small>Quantity: </small><small id="quantity"></small></p>
+                        <h1>Total: <span id="totalprice" class="important"></span></h1>
+                        <p class="buy-note important">This total does not include any delivery charges <br> You will pay for any delivery charges</p>
+                    </div>
+                    
+                </div>
+                <p class="buy-note"><span class="important">Note:</span> SamShea will contact you further to arrange how you will recieve the product and the payment</p>
+                <div id="all-input-buy" class="flex-c">
+                    <div class="input-control flex-r">
+                        <input required type="number" min="1" name="prodQuant" id="prodQuant" placeholder="Quantity of Product (Required)">
+                        <input required type="text" id="cName" name="cName" placeholder="Full Name (Required)">
+                    </div>
+                    <div class="input-control flex-r">
+                        <input required type="tel" name="cNumber" id="cNumber" placeholder="Phone Number (Required)">
+                        <input required type="email" name="cEmail" id="cEmail" placeholder="Email (Required)">
+                    </div>
+                    <div class="input-control flex-r">
+                        <input required type="text" name="cCountry" id="cCountry" placeholder="Country (Required)">
+                        <input required type="text" name="cAddress" id="cAddress" placeholder="Specific Address (Required)">
+                    </div>
+                    <div class="input-control flex-r">
+                        <select name="cDelivery" id="cDelivery">
+                            <option>-- How will you get it ? --</option>
+                            <option value="to-me-at-address">Deliver to me at a Fee to my Specific Address</option>
+                            <option value="by-myself-at-your-office">I will pick it Myself from your Office</option>
+                            <option value="will-be-indicated-by-me">I will indicate were to Deliver it to</option>
+                        </select>
+                        <input type="text" name="cSpecifications" id="cSpecifications" placeholder="Want to Add Other Specifications ?">
+                    </div>                   
+                </div>
+            </div>
+            <div id="buy-submit" class="flex-r just-btw">
+                <button type="submit" class="buy-sent">Send Order</button>
+                <a href="./index.html" class="buy-back flex all-center">Back</a>
+            </div>
+        </form>
+    </div>
+    <div class="buy-footer"></div>
+</body>
+    <script type="module" src="./serve/order.js"></script>
+</html>
