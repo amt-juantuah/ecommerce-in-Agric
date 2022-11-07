@@ -255,7 +255,7 @@ a {
 .flash-style {
     font-family: 'Island Moments', cursive;
     font-size: 80px;
-    color: var(--color-cadet);
+    color: #6cf1f5;
 }
 
 .island {
@@ -712,6 +712,7 @@ a .go-top p {
     #signup-box {
         margin-top: -20px;
     }
+
 }
 
 /* --------Mobile View-------- */
@@ -727,12 +728,12 @@ a .go-top p {
     }
 
     #nav-bar {
-        height: 50%;
+        height: 55%;
         width: 100vw;
     }
 
     #banner {
-        height: 50%;
+        height: 45%;
         width: 100vw;
         background-position: unset;
     }
