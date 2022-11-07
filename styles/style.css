@@ -11,7 +11,7 @@
 
     /* words colors */
     --color-name: #f8fbfa;
-    --color-menu-items: #989a9c;
+    --color-menu-items: #bcbdbe;
     --color-dark-titles: #575757;
     --color-cadet: #5f9ea0;
 }
@@ -299,6 +299,7 @@ a {
     margin: 50px 0;
     top: 50px;
     position: sticky;
+    z-index: 3;
 }
 
 .wrt {
@@ -845,8 +846,12 @@ a .go-top p {
         /* justify-content: space-evenly; */
         align-items: start;
         border-top: 5px solid #0068b5;
-        background-color: #fdfdd9;
+        background-image: url('../images/buy.jpg');
         overflow: hidden;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: #000000;
     }
 
     .card:hover .item-detail .small {
