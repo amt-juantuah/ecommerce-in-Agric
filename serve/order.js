@@ -1,8 +1,5 @@
 import { sendOrder } from "./main.js"
 
-
-
-
 let initial = 1;
 const prodQuant = document.getElementById('prodQuant');
 const img = document.querySelector('.buy-product-pic');
@@ -11,6 +8,7 @@ let quantity = document.getElementById('quantity');
 const per = document.getElementById('per');
 const price = document.getElementById('price');
 const buyForm = document.getElementById('buyForm');
+const successModal = document.getElementById("success-notif-modal");
 
 const productsFile = "./serve/products.json";
 const fetchProducts = await fetch(productsFile);
@@ -66,16 +64,19 @@ if (buyForm) {
         const formResults = getOrderDetails();
         
         if (formResults) {
+            // send order to firebase realtime db
             const orderSent = sendOrder(formResults.customerName, formResults.customerNumber, formResults.customerEmail, formResults.customerCountry, formResults.customerAddress, formResults.delivery, formResults.product, formResults.quantity, formResults.price, formResults.totalAmount, formResults.specifications);
 
             if (orderSent) {
-                console.log('order sent');
+                e.target.reset();
+                document.getElementById("buy-input").innerHTML = "";
+                successModal.style.display = 'flex';
+                document.querySelector(".buy-sent").disabled = true;
+                document.querySelector(".buy-sent").style.cursor = "not-allowed"
+                localStorage.removeItem("product")
             } else {
                 console.log('Error sending order')
             }
         }
     })
 }
-
-
-// send order to firebase realtime db

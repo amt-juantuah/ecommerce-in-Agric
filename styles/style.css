@@ -164,6 +164,28 @@ a {
     padding-top: 50px;
 }
 
+#success-notif-modal {
+    width: 100vw;
+    height: 80vh;
+    background-color: #ffffffd4;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+#success-sent {
+    width: 250px;
+    height: 150px;
+    background-color: #9eff0dc2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    line-height: 20px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
 
 #banner.signup-banner {
     background-image: url('../assets/images/baobab.jpg');
@@ -441,6 +463,16 @@ footer .footer-bottom {
     border-radius: 50%;
     background-color:#393a40a9;
     transition: margin-bottom 400ms;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.go-home {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(95, 158, 160, 0.889);
+    font-size: 10px;
+    color: #dc0000;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
