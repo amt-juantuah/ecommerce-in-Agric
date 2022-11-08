@@ -25,9 +25,10 @@ const db = getFirestore();
 
 
 // function to send order
-export const sendOrder = async function(customerName, customerNumber, customerEmail, customerCountry, customerAddress, delivery, product, quantity, price, totalAmount, specifications="") {
+export const sendOrder = async function(date, customerName, customerNumber, customerEmail, customerCountry, customerAddress, delivery, product, quantity, price, totalAmount, specifications="") {
     try {
         await addDoc(collection(db, 'orders'), {
+            date: date,
             customerName: customerName, 
             customerNumber: customerNumber, 
             customerEmail: customerEmail, 
