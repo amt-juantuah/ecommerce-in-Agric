@@ -42,8 +42,8 @@ if (response) {
 // get form data
 
 const getOrderDetails = () => {
+
     return {
-        data: new Date(),
         customerName: document.getElementById("cName").value, 
         customerNumber: document.getElementById("cNumber").value, 
         customerEmail: document.getElementById("cEmail").value, 
@@ -66,7 +66,7 @@ if (buyForm) {
         
         if (formResults) {
             // send order to firebase realtime db
-            const orderSent = sendOrder(formResults.date, formResults.customerName, formResults.customerNumber, formResults.customerEmail, formResults.customerCountry, formResults.customerAddress, formResults.delivery, formResults.product, formResults.quantity, formResults.price, formResults.totalAmount, formResults.specifications);
+            const orderSent = sendOrder(formResults.customerName, formResults.customerNumber, formResults.customerEmail, formResults.customerCountry, formResults.customerAddress, formResults.delivery, formResults.product, formResults.quantity, formResults.price, formResults.totalAmount, formResults.specifications);
 
             if (orderSent) {
                 e.target.reset();
